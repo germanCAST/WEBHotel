@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+
+
+
+body{
+    font-size: 1.5vw;
+    background-image: url(17010.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.login{
+/*IMPORTANTE*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+div.login2{
+    /* background-color: yellow; */   
+    font-size: 2vw;
+    }
+
+
+div.formulario{
+    /* padre */
+    
+text-align: center;
+/*IMPORTANTE*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+div.formulario2{
+    /* hijos */
+border-radius: 20px;
+background-image: url(form1.png);
+
+}
+
+
+p.input{
+
+    font-size: 2vw;
+
+}
+
+input{
+margin: 10px;
+font-size: 1.5vw;
+}
+
+div.adapt{
+
+/*IMPORTANTE*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#menu{
+    background-color: #000;
+
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #42B881;
+}
+
+.item-r{
+    float: right;
+}
+
+div.indexs{
+    /* hijos */
+border-radius: 20px;
+width: 200vw;
+height:100%;
+background-image: url(form1.png);
+}
+
+div.adapt2{
+
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+p.subtt1{
+color: white;
+text-align: center;
+}
+  
+p.subtt2{
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+   
+    }
+
+div.video{
+
+    width:100%;
+    float:left;
+    text-align:center;
+
+}
+
+
+mark{
+
+
+    background-color: cornflowerblue;
+
+}
+
+mark.video{
+
+
+    background-color: cornflowerblue;
+
+}
